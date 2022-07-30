@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>redirecting...</title>
-    <meta content="egirl Bot" property="og:title" />
-    <meta content="she is cool" property="og:description" />
-    <meta content="cloverbrand.xyz/egirl/" property="og:url" />
-    <meta content="#202225" data-react-helmet="true" name="theme-color" />
-  </head>
-  <body>
-    <h1>egirl discord bot</h1>
-    <p>i dont feel like making a website</p> <br>
-    <a href="https://discord.com/api/oauth2/authorize?client_id=825415772075196427&permissions=8&scope=bot%20applications.commands">invite egirl here</a>
-  </body>
+    <head>
+        <title>egirl</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta content="egirl bot" property="og:title" />
+        <meta content="egirl is a social & multipurpose bot designed with the userbase in mind!" property="og:description" />
+        <meta content="cloverbrand.xyz/egirl/" property="og:url"/>
+        <meta name="og:image" itemprop="image" content="https://cloverbrand.xyz/egirl/images/meta.png">
+        <meta content="#202225" data-react-helmet="true" name="theme-color" />
+        <style>
+            html,body{overflow-x: hidden;}
+            html { height: 100%; width: 100%;}
+            body {
+            width: 10%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #FFFFFF;
+            font-family: courier;
+            text-align: center;
+            }
+            #bottom {
+            position: absolute;
+            bottom: 5px;
+            width: 100%;
+            }
+            .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            }
+            .cover {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+            margin:0px;
+            top:0px;
+            right:0px;
+            bottom:0px;
+            left:0px;
+            position: absolute
+            }
+            a:link, a:visited {
+            color: #FFFFFF;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+            a:hover, a:active {
+            color: #818D92;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cover">
+            <div class="center">
+                <img src="" id="image1">
+                <h1 style="font-size: 50px;">egirl bot</h1>
+                <p style="font-size: 25px;">invite egirl <a href="https://discord.com/oauth2/authorize?client_id=825415772075196427&permissions=8&scope=bot%20applications.commands">here</a></p>
+                <p style="font-size: 25px;"><a href="/help">Help</a></p>
+                <p style="font-size: 25px;"><a href="mailto:egirl@cloverbrand.xyz">Contact Us</a></p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var num = Math.floor(Math.random() * 6 + 1 )
+            document.getElementById("image1").src="images/profile/"+num+".png";
+            document.body.background = 'images/background/'+num+'.png';
+        </script>
+    </body>
+<div id="bottom"><p>© <a href="https://cloverbrand.xyz" target="about:blank">cloverbrand</a></p></div>
 </html>
