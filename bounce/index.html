@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bonk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="beep">
+  <svg class="logo" version="1.1" viewBox="0.0 0.0 600.0 600.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><clipPath id="p.0"><path d="m0 0l600.0 0l0 600.0l-600.0 0l0 -600.0z" clip-rule="nonzero"/></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l600.0 0l0 600.0l-600.0 0z" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m0 0l600.0 0l0 600.0l-600.0 0z" fill-rule="evenodd"/><g transform=""><clipPath id="p.1"><path d="m0 0l600.0 0l0 600.0l-600.0 0z" clip-rule="evenodd"/></clipPath><image clip-path="url(#p.1)" fill="#000" width="600.0" height="600.0" x="0.0" y="0.0" preserveAspectRatio="none" xlink:href="bounce.png"/></g></g></svg>
+  <script type="text/javascript">
+    function colorButton() {
+  var r=Math.floor(Math.random() * 256);
+  var g=Math.floor(Math.random() * 256);
+  var b=Math.floor(Math.random() * 256);
+  console.log('rgb('+r+', '+g+', '+b+')')
+  document.getElementById("beep").style.backgroundColor = 'rgb('+r+', '+g+', '+b+')';
+}
+  </script>
+  <div id="bottom">
+    <button class="button1" id="AASHH" onclick="colorButton()" style="background: url(bucket.png); background-size: cover; background-repeat: no-repeat;">
+   </button>      
+  </div>
+  <!--<button class="button1" onclick="colorButton()" position: absolute; bottom: 0; width:100%;>Change BG Color</button>-->
+</section>
+</body>
+
+<script src="./main.js"></script>
+</html>
