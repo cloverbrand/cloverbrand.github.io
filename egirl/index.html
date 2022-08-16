@@ -55,14 +55,23 @@
     </head>
     <body>
         <div class="cover">
-            <div class="center">
+            <div class="center" style="width: 100%;">
                 <img src="" id="image1">
                 <h1 style="font-size: 50px;">egirl bot</h1>
+                <h1 style="font-size: 40px; overflow: hidden;">i'm <span class="typewriter"></span></h1>
                 <p style="font-size: 25px;">invite egirl <a href="https://discord.com/oauth2/authorize?client_id=825415772075196427&permissions=8&scope=bot%20applications.commands">here</a></p>
                 <p style="font-size: 25px;"><a href="/egirl/help">Help</a></p>
                 <p style="font-size: 25px;"><a href="mailto:egirl@cloverbrand.xyz">Contact Us</a></p>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>var typed = new Typed(".typewriter", {
+            strings: ['social.', 'aesthetic.', 'helpful.', 'fun.', 'lively.'],
+            typeSpeed: 100,
+            backSpeed: 75,
+            shuffle: true,
+            loop: true,
+        })</script>
         <script type="text/javascript">
             var num = Math.floor(Math.random() * 6 + 1 )
             document.getElementById("image1").src="images/profile/"+num+".png";
