@@ -10,7 +10,7 @@
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <style>
             html,body{overflow-x: hidden;}
-            html { width: 100%; height: 100%; }
+            html,body { width: 100%; height: 100%; }
             body {
             background-position: center;
             background-repeat: no-repeat;
@@ -20,18 +20,11 @@
             font-family: courier;
             text-align: center;
             }
-            .center {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            }
             .bottom {
-            position: absolute;
+            position: fixed;
             bottom: 5px;
-            width: 100%;
+            left: 5px;
+            margin-top: auto;
             }
             a:link, a:visited {
             color: #FFFFFF;
@@ -46,36 +39,50 @@
             </style>
     </head>
     <body>
-        <div class="center">
-        <h1>
+        <div>
+        <center>
+        <h1 style="font-size: 50px;">
             egirl Help
         </h1>
-        <h2>
-            currently a work in progress
-        </h2>
         <h1>
             Commands
         </h1>
-        <p> <b>message</b> - send a fancy embeded message <br>
+            <p style="font-size: 24px;"><b>-utility-</b></p>
+            <b>message</b> - send a fancy embeded message <br>
             <b>editmessage</b> - edit said fancy embedded messages <br>
+            <p style="font-size: 24px;"><b>-fun-</b></p>
             <b>howcute</b> - rate cuteness for given user<br>
-            <b>possum</b> - send a random possum image, or request a specific image<br>
-            <b>profile</b> - get banner, status and avatar of user<br>
-            <b>banner</b> - get banner of user<br>
-            <b>miner</b> - various minecraft related grabbers<br>
-            <b>snipe</b> - snipe a deleted message<br>
-            <b>esnipe</b> - snipe an edited message<br>
             <b>vs</b> - stage a battle between two users<br>
+            <b>rp</b> - random roleplay GIFs targeted at other users<br>
+            <b>solorp</b> - random roleplay GIFs target at yourself<br>
+            <b>8ball</b> - have egirl answer a yes or no question<br>
+            <b>slaydetector</b> - check if a user is slaying<br>
+            <b>rockpaperscissors</b> - play rock paper scissors against egirl<br>
+            <b>howboopable</b> - check how boopable a user is<br>
+            <b>tod</b> - random truth or dare questions<br>
+            <p style="font-size: 24px;"><b>-info-</b></p>
             <b>egirl</b> - information about egirl<br>
-            <b>help</b> - displays the help menu<br></p>
+            <b>help</b> - displays the help menu<br>
+            <b>invite</b>displays an invite for egirl<br>
+            <p style="font-size: 24px;"><b>-game info-</b></p>
+            <b>miner</b> - various minecraft related grabbers<br>
+            <b>hypixel</b> - basic hypixel stats<br>
+            <p style="font-size: 24px;"><b>-config-</b></p>
+            <b>welcome</b> - configure welcome message channel<br>
+            <b>goodbye</b> - configure goodbye message channel<br>
+            <p style="font-size: 24px;"><b>-images-</b></p>
+            <b>possum</b> - random possum image<br>
+            <b>dog</b> - random dog image<br>
+            <b>cat</b> - random cat image<br></p>
         <h1>
             Features
         </h1>
         <p>
-            - Welcome messages <br>
+            - Welcome + goodbye messages messages <br>
             - Cute & regularly updating profile pictures <br>
             - Rotating and community-supplied statues <br>
         </p>
+    </center>
     </div>
     <div class="bottom"><p>© <a href="https://cloverbrand.xyz" target="about:blank">cloverbrand</a></p></div>
     </body>
